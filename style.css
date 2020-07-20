@@ -86,7 +86,7 @@ nav.menu-mobile{
 	display: none;
 	width: 40px;
 	height: 32px;
-	background-image: url('../imagens/menu-mobile.png');
+	background-image: url('menu-mobile.png');
 	background-size: 100% 100%;
 }
 
