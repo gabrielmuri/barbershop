@@ -525,7 +525,7 @@ footer{
 }
 
 .rodape-left p{
-	color:#a2abb7;
+	color: #a2abb7;
 	font-size: 13px;
 }
 
@@ -564,7 +564,7 @@ footer{
 		width: 100%;
 		height: 500px;
 		margin-bottom: -250px;
-		background-image: url('../imagens/capa10.jpg');
+		background-image: url('capa10.jpg');
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
@@ -639,7 +639,7 @@ footer{
 		margin-left: 25px;
 		margin-right: 10px;
 		padding: 0 2%;
-		background-image: url('../imagens/logo-novo.jpeg');
+		background-image: url('logo-novo.jpeg');
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
