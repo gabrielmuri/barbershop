@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BarberShop - Agendamento</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Conteúdo do meu site">
+	<meta name="keywords" content="palavras, separadas, por, virgulas">
+	<meta name="author" content="Gabriel Muri">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<link rel="shortcut icon" type="image-x/png" href="imagens/logo-barber.ico">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<div id="center" class="center">
+			
+			<div class="logo"></div><!--logo-->
+			
+			<nav class="menu-desktop">
+				<ul>
+					<li><a href="identidade.html">Quem sou ?</a></li>
+					<li><a href="">Contato</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+			</nav><!--menu-desktop-->
+
+			<nav class="menu-mobile">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="">Contato</a></li>
+					<li><a href="identidade.html">Quem sou?</a></li>
+				</ul>
+			</nav><!--menu-desktop-->
+			<div class="clear"></div><!--clear-->
+		</div><!--center-->
+	</header>
+<!--FIM HEADER-->	
+	
+	<section class="agendamento">
+		
+		<div class="center">
+			
+			<div class="dicas">
+				<h2>Sobre o Agendamento</h2>
+				<div class="conteudo-dicas">
+					<ul>
+						<li>Informe seu nome e seu sobrenome para melhor identificação.</li>
+						<li>Informe corretamente seu número de telefone que contenha whatsapp, após envio dos dados recebera uma mensgaem contendo seu agendamento.</li>
+						<li>Na mensagem que receberá contera um código caso deseje <a href="">cancelar </a>o agendamento.</li>
+						<li>Em caso de cancelamento o mesmo deverá ser efetuado meia hora antes do horario agendado.</li>
+						<li>Dúvidas entre em <a href="">contato</a>.</li>
+						<li style="color:red">Acrescentar botão para cancelamento</li>
+					</ul>
+				</div><!--conteudo-dicas-->
+			</div><!--dicas-->
+
+			<div class="form-agendamento">
+				<h2>Escolha o melhor dia e horário pra você</h2>
+				<form>
+					<label>Nome*</label>
+					<br>
+					<input type="text" name="nome" placeholder="Digite seu nome e sobrenome" required>
+					<br>
+					<label>Telefone*</label>
+					<br>
+					<input type="tel" name="telefone" placeholder="Informe seu número de whatsaap" required>
+					<br>
+					<label>Escolha o Dia*</label>
+					<br>
+					<input type="date" name="calendario" required>
+					<br>
+					<label>Escolha o Horário*</label>
+					<br>
+					<select>
+						<option>08:00</option>
+						<option>09:00</option>
+						<option>10:00</option>
+						<option>11:00</option>
+						<option>12:00</option>
+						<option>14:00</option>
+						<option>15:00</option>
+						<option>16:00</option>
+						<option>17:00</option>
+						<option>18:00</option>
+					</select>
+					<br>
+					<input type="submit" name="acao" value="ENVIAR">
+					<br>
+					<span>* Campos obrigatórios</span>
+
+				</form>
+			</div><!--form-agendamento-->
+
+		</div><!--center-->
+		<div class="clear"></div><!--clear-->
+
+	</section><!--form-aganedamento-->
+<!--FINAL FORMULARIO PARA AGENDAMENTO-->
+
+	<footer class="rodape-pagina-agendamento">
+		<div class="center">
+			<div class="rodape-left">
+				<p>BarberShop Gabriel Muri</p>
+				<p>Todos os direitos reservados</p>
+			</div><!--rodape-left-->
+
+			<div class="rodape-center">
+				<p>© 2020 - BarberShop - 1ª Edição</p>
+				<p>Developed by: Gabriel Muri</p>
+			</div><!--rodape-center-->
+
+			<div class="rodape-right">
+				<p>Rua Izidio cezário, nº73, Vila da Penha, Mimoso do Sul, 29400-000, Espirito Santo, Brasil.</p>
+			</div><!--rodape-right-->
+
+		</div><!--center-->
+		<div class="clear"></div><!--clear-->
+	</footer><!--rodape-pagina-agendamento-->
+
+</body>
+</html>
