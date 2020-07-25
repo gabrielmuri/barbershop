@@ -25,7 +25,7 @@ html,body{
 header{
 	width: 100%;
 	height: 500px;
-	background-image: url('../imagens/capa10.jpg');
+	background-image: url('capa10.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	
@@ -37,7 +37,7 @@ header{
 	height: 250px;
 	margin-top: 20px;
 	padding: 0 2%;
-	background-image: url('../imagens/logo-novo.jpeg');
+	background-image: url('logo-novo.jpeg');
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -86,7 +86,7 @@ nav.menu-mobile{
 	display: none;
 	width: 40px;
 	height: 32px;
-	background-image: url('../imagens/menu-mobile.png');
+	background-image: url('menu-mobile.png');
 	background-size: 100% 100%;
 }
 
@@ -725,7 +725,7 @@ section.conteudo-pagina-identidade{
 		width: 100%;
 		height: 80%;
 		margin-bottom: -250px;
-		background-image: url('../imagens/capa10.jpg');
+		background-image: url('capa10.jpg');
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
@@ -858,7 +858,7 @@ section.conteudo-pagina-identidade{
 		margin-left: 25px;
 		margin-right: 10px;
 		padding: 0 2%;
-		background-image: url('../imagens/logo-novo.jpeg');
+		background-image: url('logo-novo.jpeg');
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
